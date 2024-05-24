@@ -23,7 +23,7 @@ void init_PWM1_Fast(void){
 	//PRESCALER DE 64
 	TCCR1B |= (1<<CS11)|(1<<CS10);
 	
-	//TOP DE 1249
+	//TOP DE 2499
 	ICR1H = 0x09;
 	ICR1L = 0xC3;
 	
